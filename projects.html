@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 130px 0;
+        }
+
+        .firstSection div> {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 8px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(170, 170, 228);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(170, 170, 228);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 35vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 11px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+<header>
+    <nav>
+        <div class="left">Anushray's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/contactme.html">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <section class="flex items-relative bg-stone-100 xl:h-screen font-poppins dark:bg-[#000021] ">
+        <div class="justify-left flex-1 max-w-6xl py-4 mx-auto lg:py-4 md:px-3">
+            <div class="flex flex-wrap ">
+                <div class="w-full px-4 mb-10 lg:w lg:mb-5">
+                </div>
+                <div class="w-full px-4 mb-10  lg:mb-0 ">
+                    <h2 class="mb-3 text-4xl font-semibold text-blue-500 dark:text-gray-300">
+                        Projects done so far
+                    </h2>
+                    <h3 class="mb-2 text-1xl font-semibold text-blue-500 dark:text-gray-300">
+                        1. A Geo-Intelligent Crop Advisor and Market Predictor System for Farmers:-
+                    </h3>
+
+                    <p class="mb-5 text-base leading-7 text-gray-500 dark:text-gray-400">
+
+                        Developing the machine learning and deep learning model to recommend crops based on the analysis
+                        of soil images, considering key soil parameters such as pH, rainfall, nutrient levels (nitrogen,
+                        phosphorus, and potassium), along with geographical regions.
+                    </p>
+
+                    <h4 class="mb-2 text-1xl font-semibold text-blue-500 dark:text-gray-300">
+                        2. Heart Beat Sensor:-
+                    </h4>
+
+                    <p class="mb-5 text-base leading-7 text-gray-500 dark:text-gray-400">
+
+                        "Heart Beat Sensor Using PIC16F877A," is designed to provide a practical solution for real-time
+                        heart rate monitoring. By utilising the capabilities of the PIC16F877A microcontroller and a
+                        heart rate sensor, we aim to accurately capture and process heart rate signals. The project aims
+                        to
+                        empower individuals to monitor their heart rate conveniently, promoting
+                        personal health awareness and well-being.
+                    </p>
+
+                    <h5 class="mb-2 text-1xl font-semibold text-blue-500 dark:text-gray-300">
+
+                        3. My Personal Portfolio:-
+                    </h5>
+
+                    <p class="mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
+                        Welcome to my digital space!
+                        I've crafted this personal portfolio using the power of HTML, CSS, and JavaScript.
+                    </p>
+
+                    <a href="#"
+                        class="mb-10 px-5 py-2 text-blue-700 transition-all transform border border-blue-500 rounded-3xl hover:bg-blue-600 dark:border-blue-400 dark:hover:bg-blue-500 dark:hover:text-gray-100 dark:hover:border-blue-500 dark:text-blue-400 hover:text-gray-100">
+                        Discover more
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Anushray's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; anushraysportfolio.com | All rights reserved
+        </div>
+    </footer>
+</body>
+
+</html>
